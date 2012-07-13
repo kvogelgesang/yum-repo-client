@@ -8,10 +8,8 @@ The aim is to provide a command line wrapper for every functionality the yum-rep
 ## Features
 The yum-repo-client currently supports
 * Remote repository creation
-* RPM upload
-* Virtual repository creation and linking
-* RPM file deletion
-* Virtual repository deletion
+* RPM upload and remote deletion
+* Virtual repository creation, linking and deletion
 * Optional authentication and yum-repo-server host parametrization
 * Smart bash autocompletion
 
