@@ -19,3 +19,5 @@ The yum-repo-client currently supports
 Simply call 
 <code> [you@yourhost ~]$ repoclient </code> 
 to display the help text that includes call syntax and operation description
+
+### Extending or customizing the yum-repo-client
