@@ -15,10 +15,10 @@ The yum-repo-client currently supports
 * Smart bash autocompletion
 
 ## Getting started
-
+### Building the yum-repo-client
+### Installing the yum-repo-client
 ### Using the yum-repo-client
 Simply call 
 <code> [you@yourhost ~]$ repoclient </code> 
 to display the help text that includes call syntax and operation description
-
 ### Extending or customizing the yum-repo-client
