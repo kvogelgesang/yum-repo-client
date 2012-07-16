@@ -16,7 +16,23 @@ The yum-repo-client currently supports
 
 ## Getting started
 ### Building the yum-repo-client
+First of all it is recommendet to run the tests:
+<code>
+python setup.py test
+</code>
+
+These should always be successfull. 
+Optionally after that you can run:
+<code>
+python setup.py bdist_rpm
+</code>
+to get an rpm of the yum-repo-client.
 ### Installing the yum-repo-client
+If you have build a rpm file in the step above, then you can install it as usual.
+Without the rpm file you can install the yum-repo-client with:
+<code>
+python setup.py install
+</code>
 ### Using the yum-repo-client
 Simply call 
 <code> [you@yourhost ~]$ repoclient </code> 
